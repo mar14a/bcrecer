@@ -1,0 +1,448 @@
+
+
+/* =========================================================
+01. General
+============================================================ */
+
+/* scroll to top */
+.frame{
+  width: 300px;
+  height: 350px;
+}
+.scrollup2{
+    position:absolute;
+  width:300px;
+  height:500px;
+    bottom:20px;
+    right:80px;
+    z-index: 20;
+}
+
+a.scrollup2 {
+  outline:0;
+  text-decoration:none;
+}
+
+a.scrollup2:hover,a.scrollup2:active,a.scrollup2:focus {
+  opacity:1;
+  text-decoration:none;
+  -webkit-transition: all 400ms ease-out 0s;  
+     -moz-transition: all 400ms ease-out 0s;
+     -o-transition: all 400ms ease-out 0s;
+        transition: all 400ms ease-out 0s;
+}
+a.scrollup2 i:hover {
+  text-decoration:none;
+}
+
+.tabla{
+
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: 2px 2px 5px #999999;
+  background: #ffffff;
+}
+
+.scrollup1{
+    position:absolute;
+  width:100px;
+  height:100px;
+    bottom:20px;
+    right:20px;
+    z-index: 20;
+}
+.scrollup{
+    position:fixed;
+  width:32px;
+  height:32px;
+    bottom:20px;
+    right:20px;
+}
+
+a.scrollup {
+  outline:0;
+  text-decoration:none;
+}
+
+a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
+  opacity:1;
+  text-decoration:none;
+  -webkit-transition: all 400ms ease-out 0s;  
+     -moz-transition: all 400ms ease-out 0s;
+     -o-transition: all 400ms ease-out 0s;
+        transition: all 400ms ease-out 0s;
+}
+a.scrollup i:hover {
+  text-decoration:none;
+}
+img.palabra{
+    width: 239px; 
+    height: 70px;
+}
+
+
+
+/* =========================================================
+09. Media queries
+============================================================ */
+ @media (min-width: 1800px) and (max-width: 3500px) {
+  
+  .frame{
+    width: 400px;
+    height: 400px;
+  }
+  .scrollup2{
+      position:absolute;
+    width:500px;
+    height:630px;
+      bottom:20px;
+      right:20px;
+      z-index: 20;
+  }
+  .scrollup1{
+      position:absolute;
+    width:200px;
+    height:200px;
+      bottom:20px;
+      right:20px;
+      z-index: 20;
+  }
+  #header-wrapper {
+    width: 100%;
+    min-height: 1000px;
+    margin-top: -60px;
+    padding-top:160px;
+    text-align:center;
+  }
+  
+
+}
+
+ @media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding-left:0 ;
+    padding-right:0;
+    padding:0;
+  }
+  
+  .navbar-inner {
+   padding-right: 20px;
+   padding-left: 20px;  
+  }
+  
+  .navbar-inner h1.brand {
+    margin-left:20px;
+  }
+  
+  .navbar-inner .btn-navbar {
+    margin:20px 20px 0;
+  }
+  
+  .container {
+   padding-right: 20px;
+   padding-left: 20px;
+  } 
+  .navbar-inverse .navbar-inner {
+    padding:0 0 30px;
+  }
+  
+  .nav-collapse {
+    text-align:center;
+    width:100%;
+  }
+  #header-wrapper {
+    width: 100%;
+    min-height: 100px;
+    margin-top: -60px;
+    padding-top:160px;
+    text-align:center;
+  }
+
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-left:0 ;
+    padding-right:0;
+    padding:0;
+  }
+  .navbar-inner {
+   padding-right: 20px;
+   padding-left: 20px;  
+  }
+  
+  .navbar-inner h1.brand {
+    margin-left:20px;
+  }
+  
+  .navbar-inner .btn-navbar {
+    margin:20px 20px 0;
+  }
+  
+  .container {
+   padding-right: 20px;
+   padding-left: 20px;
+  } 
+  .navbar-inverse .navbar-inner {
+    padding:0 20px 30px;
+  }
+  
+  .nav-collapse {
+    text-align:center;
+    width:100%;
+  }
+  #portfolio-wrap .grid {
+    width: 25%;
+  }
+}
+    
+    /* Smaller screens ----------- */
+@media (max-width : 480px) {
+  #header-wrapper {
+    padding-top:80px;
+  }
+
+  #team .team-thumb {
+     margin-right: auto;
+     margin-left: auto;
+     width: 150px;
+     display: block;
+     text-align:center;
+  }
+
+  #portfolio-wrap .grid {
+    width: 50%;
+  }
+  #main-flexslider ul.slides li p {
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1;
+    color:#fff;
+  }
+  .frame{
+    width: 200px;
+    height: 300px;
+  }
+  .scrollup2{
+      position:absolute;
+    width:300px;
+    height:450px;
+      bottom:15px;
+      right:50px;
+      z-index: 20;
+  }
+  .scrollup1{
+      position:fixed;
+    width:80px;
+    height:80px;
+      bottom:15px;
+      right:15px;
+  }
+  #header-wrapper.header-slider {
+    background: #2b2a2a url(../img/friends.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: auto;
+    background-size: 100% 100%;
+
+  }
+  #header-wrapper {
+    width: 100%;
+    min-height: 50px;
+    margin-top: -60px;
+    padding-top:160px;
+    text-align:center;
+  }
+
+}
+    
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
+#main-flexslider ul.slides li p {
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 0px;
+  text-align: center;
+  line-height: 1;
+  color:#fff;
+}
+#header-wrapper {
+  width: 100%;
+  min-height: 300px;
+  margin-top: -60px;
+  padding-top:160px;
+  text-align:center;
+}
+
+
+ #works .container {
+ top: 0 !important;
+}
+
+.max-img {
+ width: 100%;
+}
+ .max-img {
+ margin-right: auto;
+ margin-left: auto;
+ display: block;
+}
+.iconI{
+  width: 15%;
+  align-content: left;
+}
+.iconII{
+  font-size:14px;
+}
+blockquote.large {
+  font-size:24px;
+}
+.people1 {
+  font-size: 10px;
+}
+.navbar .brand a {
+  padding: 0;
+  color: #fff;
+  font-size: 1.2em;
+  margin-left: 0;
+  font-weight: 400;
+  text-transform:uppercase;
+}
+header .logo {
+  text-align:center;
+  margin-top: -100px;
+}
+
+    
+
+/* team */
+    
+#team .team-thumb {
+ margin-right: auto;
+ margin-left: auto;
+ width: 150px;
+ display: block;
+ text-align:center
+}
+ .job-position: {
+ margin-bottom: 1.5em;
+}
+ .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+ margin-left: auto;
+ margin-right: auto;
+}
+    
+/* Contact Form */
+  #contact-form {
+    overflow: hidden;
+  }
+  #contact-form input[type=submit] {
+    width: 100%;
+  }
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 20;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+.popup1 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup1 .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup1 .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup1 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}

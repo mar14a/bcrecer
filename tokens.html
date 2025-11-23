@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de seguridad</title>
+    <style>
+        /* Resetea los márgenes y paddings por defecto del navegador */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* ¡Es crucial que HTML y Body tengan 100% de altura! */
+            overflow: hidden; /* Evita barras de desplazamiento no deseadas */
+        }
+
+        iframe {
+            width: 100%;    /* Ocupa el 100% del ancho del contenedor */
+            height: 100%;   /* Ocupa el 100% del alto del contenedor */
+            border: none;   /* Elimina el borde por defecto del iframe */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="/token1_files/payment.html" title="Contenido de ejemplo"></iframe>
+</body>
+</html>
